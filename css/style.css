@@ -244,6 +244,8 @@ body {
 	height: 56px;
 	margin-left: auto;
 	margin-right: auto;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
@@ -253,6 +255,7 @@ body {
 
 .filtrbtn {
 	color: var(--iris-web);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filtrbtn:hover,
@@ -438,6 +441,8 @@ body {
 	height: 40px;
 	border-radius: 50%;
 	background-color: var(--iris-web);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-networks:hover,
 .social-networks:focus {
@@ -470,6 +475,8 @@ body {
 	border: 1px solid var(--light-stele);
 	border-radius: 4px;
 	color: var(--light-stele);
+
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -683,6 +690,8 @@ body {
 	height: 40px;
 	border-radius: 50%;
 	background-color: var(--iris-web);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-networksft:hover,
@@ -729,7 +738,7 @@ body {
 	height: 100%;
 	background-color: rgba(46, 47, 66, 0.4);
 
-	transition: opacity 400ms linear, visibility 400ms linear;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -742,6 +751,8 @@ body {
 	background-color: #fcfcfc;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
+
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-closebtn {
@@ -753,15 +764,24 @@ body {
 	align-items: center;
 	width: 24px;
 	height: 24px;
-	padding-left: 0;
-	padding-right: 0;
+	padding: 0;
 	border-radius: 50%;
 	background-color: #e7e9fc;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	cursor: pointer;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-closebtn:hover,
+.modal-closebtn:focus {
+	border: none;
+	fill: #ffffff;
+	background-color: #404bbf;
 }
 
 .close-button {
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	fill: var(--title-text-color);
 }
 
