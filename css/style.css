@@ -139,9 +139,9 @@ body {
 	color: var(--hover-focus);
 }
 
-/* .current {
-	background-color: var(--ocean-color);
-} */
+.current {
+	color: var(--ocean-color);
+}
 
 .current::after {
 	content: "";
@@ -176,7 +176,7 @@ body {
 
 .add:hover,
 .add:focus {
-	color: var(--ocean-color);
+	color: var(--hover-focus);
 }
 
 .tel {
